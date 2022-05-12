@@ -1,5 +1,5 @@
 # demo_libevent
 该工程复制了libvent官网的例子,并对例子做了一些简化(主要是删除对WIN32的支持)和加了注释.能帮助对刚刚接触libevent库的人更快上手
-除了server_toupper,其它例子均来自官网;
-1.server-toupper.c
+除了server_toupper,其它例子均来自官网;每个C文件中都有对应的编译命令和运行命令
+#1.server-toupper.c
 这个程序能够实现将客户端的小写在服务器端转成大写并返回给客户端.
